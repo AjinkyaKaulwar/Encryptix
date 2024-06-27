@@ -1,1 +1,160 @@
+HTML Code 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Ajinkya Kaulwar</h1>
+        <p>Pursuing B-Tech at VIT,Pune. Love to do new things and also have love for sports. Always belive in positivity , team work and hardwork. Love to enjoy each and every moment of life.</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="WhatsApp Image 2024-06-25 at 20.01.12_8ebb1f15.jpg" alt="Ajinkya">
+        <p>Highly motivated and diligent B.Tech student at VIT College Pune
+            seeking professional development opportunities. Eager to apply
+            my technical skills and knowledge in a challenging environment to
+            contribute to the growth. As a student seeking professional
+            experience, I aim to gain valuable skills and knowledge within a
+            dynamic organization that will challenge me to grow and develop. I
+            am eager to apply my passion for learning, strong work ethic, and
+            collaborative spirit to contribute to success while advancing my
+            career goals..</p>
+    </section>
+
+    
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Front-End development</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>DSA</li>
+        </ul>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Solar Vehicle</h3>
+            <img src="https://www.pitsco.com/iCongoProductImages/iCg_21211RAYCATCHERCAR.jpg" alt="Project 1">
+            <p>A solar vehicle or solar electric vehicle is an electric vehicle powered completely or significantly by direct solar energy.Usually, photovoltaic (PV) cells contained in solar panels convert the sun's energy directly into electric energy.</p>
+        </div>
+
+        <hr>
+        <hr>
+
+        <div class="project">
+            <h3>Smart Home</h3>
+            <img src="https://ajeevi.com/wp-content/uploads/2023/06/1-15.jpg" alt="Project 2">
+            <p>A smart home is a home setup where internet-enabled appliances and devices can be automatically controlled remotely using a networked device.Devices in a smart home are interconnected through the internet, allowing the user to control functions such as security access to the home, temperature, lighting, and a home theater remotely.</p>
+        </div>
+    
+    </section>
+
+    
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="AjinkyaKaulwarResume .pdf" download>Download My Resume</a>
+    </section>
+
+
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:ajinkyakaulwar@gmail.com">ajinkyakaulwar@gmail.com</a></p>
+        <p>Phone: 91+ 9876543210</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ajinkya Kaulwar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+CSS Code 
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color:rgba(14, 188, 136, 0.575);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 2em;
+    background-color: white;
+    margin: 1em 0;
+}
+
+#about img {
+    max-width: 350px;
+    border-radius: 70%;
+    margin-top: 1em;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background-color: #e4e4e4;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 4px;
+}
+
+.project {
+    margin: 1em 0;
+}
+
+.project img {
+    max-width: 50%;
+    max-height: 300px;
+}
+
+#resume a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+#contact p {
+    margin: 0.5em 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}
 
